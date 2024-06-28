@@ -150,6 +150,7 @@ footer #termos-de-uso,
   #adress-return,
   #wheather-return {
     width: 80%;
+    font-size: 16px;
   }
 }
 
@@ -184,8 +185,21 @@ footer #termos-de-uso,
   #adress-return,
   #wheather-return {
     width: 90%;
-    font-size: 18px;
+    font-size: 12px;
   }
+}
+
+footer #termos-de-uso,
+#politica-de-privacidade {
+  font-size: 12px;
+}
+
+footer #termos-de-uso {
+  padding-right: 25px;
+}
+
+footer {
+  text-align: right;
 }
 
 @media (max-width: 480px) {
@@ -222,4 +236,13 @@ footer #termos-de-uso,
     width: 90%;
     font-size: 10px;
   }
+}
+
+footer #termos-de-uso,
+#politica-de-privacidade {
+  font-size: 12px;
+}
+
+footer #termos-de-uso {
+  padding-right: 25px;
 }
